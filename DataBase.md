@@ -61,7 +61,7 @@
 물리적인 저장장치와 밀접한 계층이다.
 
 ## 데이터베이스 언어(Database Language)
-**데이터 정의 언어(DDL ; Data Definition Language)**
+**데이터 정의 언어(DDL ; Data Definition Language)**  
 -DB구조, 데이터 형식, 접근 방식 등 DB를 구축하거나 수정할 목적으로 사용하는 언어이다.  
 -번역한 결과가 데이터 사전이라는 특별한 파일에 여러 개의 테이블로 저장된다.  
 -데이터 정의 언어의 기능  
@@ -74,20 +74,21 @@
 -DDL 유형:CREATE, ALTER, DROP
 
 
-**데이터 조작 언어(DML ; Data Manipulation Language) = 서브 언어**
+**데이터 조작 언어(DML ; Data Manipulation Language) = 서브 언어**  
 -사용자로 하여금 데이터를 처리할 수 있게 하는 도구로서 사용자와 DBMS 간의 인터페이스를 제공한다.  
 -응용 프로그램을 통하여 사용자가 DB의 데이터를 실질적으로 조작할 수 있도록 하기위해 C, COBOL 등의 호스트 언어에 DB기능을 추가시켜 만든 언어이다.  
 -대표적인 데이터 조작어에는 질의어가 있으며, 질의어는 터미널에서 주로 이용하는 비절차적 데이터 언어이다.  
 -DML 유형:SELECT, INSERT, DELETE, UPDATE
 
 
-**데이터 제어 언어(DCL ; Data Control Language)**
+**데이터 제어 언어(DCL ; Data Control Language)**  
 -무결성, 보안 및 권한 제어, 회복 등을 하기 위한 언어이다.  
 -데이터를 보호하고 데이터를 관리하는 목적으로 사용된다.  
 -데이터 제어 언어의 기능  
 >불법적인 사용자로부터 데이터를 보호하기 위한 데이터 보안(Security)  
 데이터의 정확성을 위한 무결성(Integrity) 유지  
 시스템 장애에 대비한 데이터 회복과 병행수행 제어
+
 -DCL 유형:COMMIT, ROLLBACK, GRANT, REVOKE
 
 
